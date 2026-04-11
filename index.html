@@ -230,9 +230,23 @@ footer {
   bottom: 12px;
   left: 0; right: 0;
   text-align: center;
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: rgba(255,255,255,0.50);
   z-index: 3;
+}
+
+.small-footer {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.small-footer a {
+  color: rgba(255,255,255,0.70);
+  text-decoration: none;
+}
+
+.small-footer a:hover {
+  text-decoration: underline;
 }
 
 /* ── FLOATING WA ── */
@@ -442,7 +456,10 @@ footer {
 
 </div>
 
-<footer>© 2026 Trip Treasure Holidays. All rights reserved.</footer>
+<footer>
+  <div>© 2026 Trip Treasure Holidays. All rights reserved.</div>
+  <div class="small-footer">This website is developed by <a href="https://dnyanesh-k.github.io/" target="_blank" rel="noopener noreferrer">ABC Infotech Pvt Ltd</a></div>
+</footer>
 
   <a href="https://wa.me/919881155576?text=Hi%20Trip%20Treasure%20Holidays!%20I'm%20interested%20in%20planning%20a%20trip.%20Could%20you%20help%20me?" target="_blank" rel="noopener noreferrer" class="wa-float" onclick="event.stopImmediatePropagation();">
     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24">
